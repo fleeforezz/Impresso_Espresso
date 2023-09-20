@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+/* COFFEE SHOP MAIN HEAD */
+header {
+    padding: 55px;
+    background-color: #faebd7;
+}
+
+.coffee-cup-logo {
+    position: absolute;
+    top: 2%;
+    left: 48.5%;
+    width: 2.5%;
+}
+
+.coffee-text-logo {
+    padding: 10px;
+    text-align: center;
+    color: #686057;
+    font-size: 2em;
+    font-family: 'Dancing Script', cursive;
+}
+
+ul {
+    background-color: #faebd7;
+    list-style: none;
+}
+
+li {
+    float: left;
+}
+
+
+li a {
+    display: block;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #686057;
+    padding: 1rem 2rem;
+}
+li a.active {
+    color: white;
+    background-color: #504a43;
+}
+li a.active:hover {
+    opacity: 90%;
+}
+
+li a:hover {
+    background-color: #504a43;
+    color: white;
+}
+
+li.dropdown-content {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ebebeb;
+    min-width: 160px;
+    z-index: 1;
+}
+    
+.dropdown-content a {
+    display: block;
+    padding: 1rem 10rem;
+}
+
+li:hover .dropdown-content {
+    display: block;
+}
+
+.log-in{
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+}
+
+.sign-up {
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+}
+
+/* COFFEE SHOP SECTION */
+.poster {
+    width: 100%;
+}
+
+.glass-coffee {
+    padding: 8em;
+}
+.glass-parent {
+    width: 100%;
+    max-width: 1300px;
+}
+.glass-row {
+    display: flex;
+    font-size: 1.3rem;
+}
+.glass-row img {
+    margin-left: 250px;
+    width: 60%;
+    box-shadow: 0px 0px 20px black;
+    padding: 10px;
+    transform: rotate(5deg);
+}
+.glass-row p {
+    font-weight: 500;
+}
+.glass-row a {
+    font-weight: 600;
+    color: black;
+}
+.glass-column {
+    width: 80%;
+    max-width: 80%;
+}
+
+.cooperation {
+    padding: 8em;
+}
+.cooperation-parent {
+    width: 100%;
+    max-width: 1300px;
+}
+.cooperation-row {
+    display: flex;
+    font-size: 1.3rem;
+}
+.cooperation-row img {
+    width: 80%;
+    box-shadow: 0px 0px 20px black;
+    padding: 10px;
+    transform: rotate(-5deg);
+}
+.cooperation-row p {
+    font-weight: 500;
+}
+.cooperation-row a {
+    font-weight: 600;
+    color: black;
+}
+.cooperation-column {
+    width: 70%;
+    max-width: 70%;
+}
+
+
+
+/* COFFEE SHOP FOOTER */
+.contact {
+    padding: 50px;
+    background-color: #ebebeb;
+}
+
