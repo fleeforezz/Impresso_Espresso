@@ -164,3 +164,39 @@ li:hover .dropdown-content {
     background-color: #ebebeb;
 }
 
+.footer {
+    padding: 8em;
+}
+.footer-parent {
+    width: 100%;
+    max-width: 1300px;
+}
+.footer-row {
+    display: flex;
+    flex-direction: row;
+}
+.footer-column {
+    margin-right: 60px;
+}
+.footer-column h3 {
+    text-transform: uppercase;
+}
+.footer-column a {
+    display: block;
+    color: black;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+.footer-column a:hover {
+    opacity: 70%;
+}
+
+
+.made-with-love {
+    font-size: 1.5em;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+
