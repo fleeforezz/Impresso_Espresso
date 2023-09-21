@@ -6,42 +6,43 @@
 
 body {
     margin: 0;
+    padding: 0;
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
 }
 
-/* COFFEE SHOP MAIN HEAD */
-header {
-    padding: 28px;
+/*! COFFEE SHOP MAIN HEAD */
+
+.navigation-bar {
+    position: fixed;
+    width: 100%;
     background-color: #faebd7;
+    z-index: 1;
 }
 
-.coffee-cup-logo {
-    position: absolute;
-    top: 2%;
-    left: 48.5%;
-    width: 3%;
+.logo {
+    width: 100%;
+    max-width: 50%;
+    margin: 0 auto;
 }
-
-.coffee-cup-logo a {
-    display: block;
-    padding: 1em 2.8em;
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
-.coffee-text {
-    text-decoration: none;
+.logo img {
+    width:6%;
+    margin-top: 5px;
+    margin-right: 10px;
 }
-
-.coffee-text-logo {
-    padding: 10px;
-    text-align: center;
-    color: #686057;
-    font-size: 2em;
+.logo h1 {
+    margin-top: 30px;
     font-family: 'Dancing Script', cursive;
+    font-size: 1.3rem;
+    color: #504a43;
 }
 
 ul {
-    background-color: #faebd7;
     list-style: none;
 }
 
@@ -156,7 +157,8 @@ li:hover .sign-up-form {
     margin-left: -125px;
 }
 
-/* COFFEE SHOP SECTION */
+/*! COFFEE SHOP SECTION */
+
 .poster {
     width: 100%;
 }
@@ -222,7 +224,8 @@ li:hover .sign-up-form {
 
 
 
-/* COFFEE SHOP FOOTER */
+/*! COFFEE SHOP FOOTER */
+
 .contact {
     padding: 50px;
     background-color: #ebebeb;
