@@ -102,13 +102,17 @@ li:hover .dropdown-content {
 }
 .dropdown-content-product a {
     display: block;
-    padding: 1em 2.8em;
+    padding: 0.5em 2em;
 }
 li:hover .dropdown-content-product {
     display: block;
     position: absolute;
     margin-left: -50px;
     padding: 20px;
+}
+
+.dropdown-item {
+    display: flex;
 }
 
 .log-in{
