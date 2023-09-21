@@ -12,7 +12,7 @@ body {
 
 /* COFFEE SHOP MAIN HEAD */
 header {
-    padding: 55px;
+    padding: 28px;
     background-color: #faebd7;
 }
 
@@ -20,7 +20,16 @@ header {
     position: absolute;
     top: 2%;
     left: 48.5%;
-    width: 2.5%;
+    width: 3%;
+}
+
+.coffee-cup-logo a {
+    display: block;
+    padding: 1em 2.8em;
+}
+
+.coffee-text {
+    text-decoration: none;
 }
 
 .coffee-text-logo {
@@ -43,10 +52,12 @@ li {
 
 li a {
     display: block;
-    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 500;
     text-decoration: none;
     color: #686057;
-    padding: 1rem 2rem;
+    padding: 0.4em 0.9em;
 }
 li a.active {
     color: white;
@@ -75,21 +86,74 @@ li.dropdown-content {
     
 .dropdown-content a {
     display: block;
-    padding: 1rem 10rem;
+    padding: 1em 2.8em;
 }
 
 li:hover .dropdown-content {
     display: block;
 }
 
+.dropdown-content-product {
+    display: none;
+    position: absolute;
+    background-color: #ebebeb;
+    min-width: 160px;
+}
+.dropdown-content-product a {
+    display: block;
+    padding: 1em 2.8em;
+}
+li:hover .dropdown-content-product {
+    display: block;
+    position: absolute;
+    margin-left: -50px;
+    padding: 20px;
+}
+
 .log-in{
-    padding: 0.5rem 1.5rem;
-    font-size: 1rem;
+    display: inline-block;
+    padding: 0.4em 0.9em;
+    font-size: 0.9rem;
+}
+.log-in-form {
+    display: none;
+    position: absolute;
+    background-color: #ebebeb;
+    min-width: 160px;
+    z-index: 1;
+}
+.log-in-form a {
+    display: block;
+    padding: 1em 2.8em;
+}
+li:hover .log-in-form {
+    position: absolute;
+    padding: 20px;
+    margin-left: -125px;
+    display: block;
 }
 
 .sign-up {
-    padding: 0.5rem 1.5rem;
-    font-size: 1rem;
+    display: inline-block;
+    padding: 0.4em 0.9em;
+    font-size: 0.9rem;
+}
+.sign-up-form {
+    display: none;
+    position: absolute;
+    background-color: #ebebeb;
+    min-width: 160px;
+    z-index: 1;
+}
+.sign-up-form a {
+    display: block;
+    padding: 1em 2.8em;
+}
+li:hover .sign-up-form {
+    display: block;
+    position: absolute;
+    padding: 20px;
+    margin-left: -125px;
 }
 
 /* COFFEE SHOP SECTION */
@@ -200,3 +264,11 @@ li:hover .dropdown-content {
     text-align: center;
 }
 
+.made-with-love {
+    padding: 10px;
+    background-color: #ebebeb;
+}
+.made-with-love a {
+    text-decoration: none;
+    color: #504a43;
+}
