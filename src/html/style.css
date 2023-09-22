@@ -45,14 +45,14 @@ body {
     justify-content: center;
 }
 .logo img {
-    width:6%;
+    width:5%;
     margin-top: 5px;
     margin-right: 10px;
 }
 .logo h1 {
     margin-top: 30px;
     font-family: 'Dancing Script', cursive;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: #504a43;
     cursor: default;
 }
@@ -68,12 +68,15 @@ li {
 
 li a {
     display: block;
-    text-transform: uppercase;
     font-size: 0.9rem;
     font-weight: 500;
     text-decoration: none;
     color: #686057;
+    text-align: center;
     padding: 0.4em 0.9em;
+}
+.nav {
+    text-transform: uppercase;
 }
 li a.active {
     color: white;
@@ -97,12 +100,15 @@ li.dropdown-content {
     position: absolute;
     background-color: #ebebeb;
     min-width: 160px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
     z-index: 1;
 }
     
 .dropdown-content a {
     display: block;
-    padding: 1em 2.8em;
 }
 
 li:hover .dropdown-content {
@@ -117,17 +123,28 @@ li:hover .dropdown-content {
 }
 .dropdown-content-product a {
     display: block;
-    padding: 0.5em 2em;
 }
 li:hover .dropdown-content-product {
     display: block;
     position: absolute;
-    margin-left: -200px;
-    padding: 20px;
+    padding-left: 300px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+    margin-left: -400px;
 }
 
-.dropdown-item {
+.dropdown-product-item {
     display: flex;
+}
+.dropdown-product-item-child {
+    text-align: center;
+    margin-right: 50px;
+}
+.dropdown-product-item-child h3 {
+    text-transform: uppercase;
+}
+.dropdown-product-item-child img {
+    width: 20%;
 }
 
 .log-in{
