@@ -65,7 +65,6 @@ li {
     float: left;
 }
 
-
 li a {
     display: block;
     font-size: 0.9rem;
@@ -138,7 +137,6 @@ li:hover .dropdown-content-product {
 }
 .dropdown-product-item-child {
     text-align: center;
-    border: 1px solid red;
     margin-right: 150px;
 }
 .dropdown-product-item-child h3 {
@@ -169,7 +167,6 @@ li:hover .dropdown-content-about {
     text-align: center;
     margin-right: 140px;
     margin-left: -25px;
-    border: 1px solid red;
 }
 .dropdown-about-item-child h3{
     text-transform: uppercase;
