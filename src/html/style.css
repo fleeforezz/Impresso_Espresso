@@ -147,6 +147,34 @@ li:hover .dropdown-content-product {
     width: 20%;
 }
 
+.dropdown-content-about {
+    display: none;
+    position: absolute;
+    background-color: #ebebeb;
+    min-width: 160px;
+}
+.dropdown-content-about a {
+    display: block;
+}
+li:hover .dropdown-content-about {
+    display: block;
+    position: absolute;
+    padding-left: 300px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+    margin-left: -250px;
+}
+.dropdown-about-item {
+    display: flex;
+}
+.dropdown-about-item-child {
+    text-align: center;
+    margin-right: 50px;
+}
+.dropdown-about-item-child h3{
+    text-transform: uppercase;
+}
+
 .log-in{
     display: inline-block;
     padding: 0.4em 0.9em;
