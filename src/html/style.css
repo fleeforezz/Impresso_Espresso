@@ -127,7 +127,7 @@ li:hover .dropdown-content {
 li:hover .dropdown-content-product {
     display: block;
     position: absolute;
-    padding-left: 300px;
+    padding-left: 250px;
     padding-right: 100px;
     padding-bottom: 30px;
     margin-left: -400px;
@@ -138,13 +138,11 @@ li:hover .dropdown-content-product {
 }
 .dropdown-product-item-child {
     text-align: center;
-    margin-right: 50px;
+    border: 1px solid red;
+    margin-right: 150px;
 }
 .dropdown-product-item-child h3 {
     text-transform: uppercase;
-}
-.dropdown-product-item-child img {
-    width: 20%;
 }
 
 .dropdown-content-about {
@@ -162,14 +160,16 @@ li:hover .dropdown-content-about {
     padding-left: 300px;
     padding-right: 100px;
     padding-bottom: 30px;
-    margin-left: -250px;
+    margin-left: -470px;
 }
 .dropdown-about-item {
     display: flex;
 }
 .dropdown-about-item-child {
     text-align: center;
-    margin-right: 50px;
+    margin-right: 140px;
+    margin-left: -25px;
+    border: 1px solid red;
 }
 .dropdown-about-item-child h3{
     text-transform: uppercase;
